@@ -1,9 +1,11 @@
 import React from "react";
+import DashboardApp from "./components/DashboardApp";
 
 function App() {
   return (
     <div>
-      <h1>This is dashboard app 😎</h1>
+      <h1>Container</h1>
+      <DashboardApp />
     </div>
   );
 }
